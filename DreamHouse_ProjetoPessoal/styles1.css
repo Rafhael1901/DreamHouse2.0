@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./img/fundo3.jpeg);
+    background-image: cover;
+    /* filter:blur(1px); */
+}
+
+.cadastro {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 80px;
+    font-family: "Koulen", sans-serif;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex; /* Adicionado para habilitar o layout flex */
+    flex-direction: column; /* Adicionado para alinhar os elementos em coluna */
+    align-items: center; /* Adicionado para centralizar os elementos horizontalmente */
+    justify-content: center; /* Adicionado para centralizar os elementos verticalmente */
+
+}
+.cadastro {
+    /* Suas outras propriedades aqui */
+
+    margin-left: 55%; /* Adicionado para mover o quadrado para a direita */
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    /* filter: blur(1px); */
+
+
+     /* Adicionado para criar uma linha à esquerda do quadrado */
+
+
+    /* padding-left: 20px; Adicionado para criar algum espaço entre a linha e o conteúdo do quadrado */
+}
+.cadastro:hover {
+    opacity: 0.97;
+    transition: 0.4s;
+    width: 401px;
+}
+/* @media (max-width: 999px) {corrigir
+    .cadastro{width: 100vw;}
+    
+  } */
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.input:focus {
+    outline: none;
+    border-color: #000000;
+}
+input:focus {
+    caret-color: rgb(0, 0, 0);
+}
+
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
